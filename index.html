@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma aqui</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+    <main class="main">
+        <div class="container">
+            <header>
+                <h1>Faça sua soma!</h1>
+            </header> 
+            <input type="number" placeholder="Valor 1" onchange="mudarValores()" name="valor1"/>
+            <input type="number" placeholder="Valor 2" onchange="mudarValores()" name="valor2"/>
+            <input type="number" placeholder="Resultado" readonly="true" name="resultado" />
+            <button onclick="somar(), alert('Thank you, turn back always')"  class="btn">Somar</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

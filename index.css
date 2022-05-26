@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+}
+
+
+header h1 {
+    
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 0, 0.986);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+    width: 32rem;
+    margin: 0;
+}
+
+.btn {
+    color: rgb(43, 195, 226);
+    background-color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(60, 53, 53, 0.5)
+}
